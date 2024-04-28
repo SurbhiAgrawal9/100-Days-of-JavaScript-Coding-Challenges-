@@ -15,3 +15,7 @@ let newString = originalString.replace("world", "universe");
 
 console.log(newString); // Output: "Hello, universe!"
 ```
+
+
+## reduce()
+In JavaScript, the reduce() method is used to reduce an array into a single value, applying a specified function to each element of the array. This function takes four arguments: accumulator, currentValue, currentIndex, and the array itself. The accumulator is the result of the previous iteration, or the initial value if provided.
