@@ -52,7 +52,7 @@ console.log(newSentence); // Output: "Helloworld"
 In this example, all non-word characters (, and !) are removed from the sentence, resulting in "Helloworld".
 
 
-##
+## Understanding JavaScript's Set: A Simple Guide to Unique Collections
 
 In simple terms, a Set in JavaScript is a special type of object that lets you store a collection of unique items. This means no item can appear more than once in the collection. You can add different kinds of values, like numbers, strings, or even objects, and the Set will make sure each value is stored only once.
 
