@@ -1,5 +1,6 @@
 # 100-Days-of-JavaScript-Coding-Challenges-
 
+## JavaScript Methods Explained:
 
 ## replace()
 The replace() method in JavaScript is used to search a string for a specified substring or regular expression pattern and replace it with a new substring. It doesn't change the original string but returns a new string with the replacements made. Here's the basic syntax:
