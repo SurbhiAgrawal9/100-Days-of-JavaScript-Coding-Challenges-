@@ -51,3 +51,44 @@ console.log(newSentence); // Output: "Helloworld"
 
 In this example, all non-word characters (, and !) are removed from the sentence, resulting in "Helloworld".
 
+
+##
+
+In simple terms, a Set in JavaScript is a special type of object that lets you store a collection of unique items. This means no item can appear more than once in the collection. You can add different kinds of values, like numbers, strings, or even objects, and the Set will make sure each value is stored only once.
+
+Basic Features of Set
+Unique Values: Every item in a Set is unique. If you try to add a duplicate, it won't be added again.
+Order of Insertion: Items are kept in the order you add them.
+
+
+How to Use a Set
+
+const mySet = new Set();
+```js
+mySet.add(1);      // Add the number 1
+mySet.add(5);      // Add the number 5
+mySet.add(1);      // Try to add 1 again (won't be added because it's a duplicate)
+
+console.log(mySet.has(1)); // Check if 1 is in the set (true)
+console.log(mySet.size);   // Get the number of items in the set (2)
+
+mySet.delete(5);   // Remove the number 5 from the set
+
+console.log(mySet); // Show the set (contains only 1)
+```
+
+Key Methods
+add(value): Adds a new item to the Set.
+delete(value): Removes an item from the Set.
+has(value): Checks if an item exists in the Set.
+clear(): Removes all items from the Set.
+size: Tells you how many items are in the Set.
+
+Iterating Over a Set
+
+```js
+for (let item of mySet) {
+  console.log(item); // Will print each item in the set
+}
+```
+
