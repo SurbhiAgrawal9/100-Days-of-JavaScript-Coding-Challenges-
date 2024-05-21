@@ -16,3 +16,20 @@ function toCamelCase(str){
 }
 
 console.log(toCamelCase("hello teachnical woRld "))
+
+
+
+
+
+// direct with chaining
+function toCamelCase(str){
+ return  str = str.trim().split(" ").map((currElm, index) => {
+        if(index === 0 ){
+             return currElm;
+        }else {
+            return currElm.charAt(0).toUpperCase() + currElm.slice(1).toLowerCase();
+        }
+    }).join("")
+}
+
+console.log(toCamelCase("hello teachnical woRld "))
