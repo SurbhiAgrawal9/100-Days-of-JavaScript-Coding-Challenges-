@@ -24,3 +24,35 @@ console.log(isUpperCase("S"));
 console.log(isUpperCase("A"));
 console.log(isUpperCase("i"));
 console.log(isUpperCase("")); //  output: true   not working with empty char
+
+
+
+
+
+//for lowercase 
+
+function isLowerCase(char){
+   if(char.charCodeAt(0) >= 97 && char.charCodeAt(0) <= 122){
+       return true;
+   } else {
+       return false;
+       }
+}
+console.log(isLowerCase("S"));
+console.log(isLowerCase("A"));
+console.log(isLowerCase("i"));
+console.log(isLowerCase(" ")); 
+
+
+
+//another one 
+
+function isLowerCase(char){
+    return char === char.toLowerCase(); 
+}
+console.log(isLowerCase("S"));
+console.log(isLowerCase("A"));
+console.log(isLowerCase("i"));
+console.log(isLowerCase(" ")); // not working with empty char
+
+
