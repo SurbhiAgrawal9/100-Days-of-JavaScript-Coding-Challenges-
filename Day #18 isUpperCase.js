@@ -12,3 +12,15 @@ console.log(isUpperCase("S"));
 console.log(isUpperCase("A"));
 console.log(isUpperCase("i"));
 console.log(isUpperCase(" "));
+
+
+
+// another  approch 
+
+function isUpperCase(char){
+    return char === char.toUpperCase() 
+}
+console.log(isUpperCase("S"));
+console.log(isUpperCase("A"));
+console.log(isUpperCase("i"));
+console.log(isUpperCase("")); //  output: true   not working with empty char
