@@ -1,5 +1,8 @@
 # 100-Days-of-JavaScript-Coding-Challenges-
 
+
+JavaScript is a high-level, interpreted programming language that is widely used to create interactive effects within web browsers. It is an essential technology of the World Wide Web, alongside HTML and CSS. Here are some key aspects of JavaScript:
+
 ## JavaScript Methods Explained:
 
 ## replace()
